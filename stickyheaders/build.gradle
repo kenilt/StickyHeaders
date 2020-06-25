@@ -1,9 +1,11 @@
 plugins {
     id "com.jfrog.bintray" version "1.6"
-    id "com.github.dcendents.android-maven" version "1.5"
+    id "com.github.dcendents.android-maven"
 }
 apply plugin: 'com.android.library'
 apply plugin: 'maven-publish'
+
+group='com.brandongogetap'
 
 repositories {
     mavenCentral()
